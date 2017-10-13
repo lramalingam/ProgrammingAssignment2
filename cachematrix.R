@@ -21,6 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## this function is responsible about returning a matrix that is inverse of x
+## check first if it is cached, if not cached return the inverse
 
 
 cacheSolve <- function(x=matrix(), ...) {
